@@ -1,10 +1,11 @@
 import React from "react";
 import Navigation from './Navigation.js';
+import Form from './Form.js'
 
 const Send = props =>
   
   <div>
-    
+    <Form />
     <h1>Send</h1>
     <p>
       Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis

@@ -1,21 +1,15 @@
 import React from 'react'
-import { Button, Checkbox, Form } from 'semantic-ui-react'
-
-const Formexample = () => (
-  <Form>
-    <Form.Field>
-      <label>First Name</label>
-      <input placeholder='First Name' />
-    </Form.Field>
-    <Form.Field>
-      <label>Last Name</label>
-      <input placeholder='Last Name' />
-    </Form.Field>
-    <Form.Field>
-      <Checkbox label='I agree to the Terms and Conditions' />
-    </Form.Field>
-    <Button type='submit'>Submit</Button>
-  </Form>
-)
-
-export default Formexample;
+import { Form, Input, TextArea, Button } from 'semantic-ui-react'
+  
+  const FormExampleFieldControlId = () => (
+    <Form>
+      <Form.Group widths='equal'>
+        <Form.Field id='form-input-control-first-name' control={Input} label='First name' placeholder='First name' />
+        <Form.Field id='form-input-control-last-name' control={Input} label='Last name' placeholder='Last name' />
+      </Form.Group>
+      <Form.Field id='form-textarea-control-opinion' control={TextArea} label='Message' placeholder='Message' />
+      <Form.Field id='form-button-control-public' control={Button} content='Confirm' label='Label with htmlFor' />
+    </Form>
+  )
+  
+  export default FormExampleFieldControlId
