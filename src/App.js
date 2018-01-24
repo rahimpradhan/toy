@@ -8,7 +8,7 @@ import Form from './components/Form.js';
 import Send from './components/Send.js';
 import Home from './components/Home.js';
 import About from './components/About.js';
-import FAQ from './components/Faq.js';
+import Order from './components/Order.js';
 
 const App = () =>
   <Router>
@@ -16,8 +16,8 @@ const App = () =>
       <Navigation />
       <Route exact path="/" component={Home} />
       <Route exact path="/send" component={Send} />
+      <Route path="/order" component={Order} />
       <Route exact path="/about" component={About} />
-      <Route path="/faq" component={FAQ} />
     </div>
   </Router>;
 

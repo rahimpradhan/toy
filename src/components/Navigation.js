@@ -34,6 +34,16 @@ export default class MenuExampleBasic extends Component {
         </Menu.Item>
 
         <Menu.Item
+          name='order'
+          active={activeItem === 'order'}
+          onClick={this.handleItemClick}
+          as={Link}
+          to='/order'
+        >
+          Order
+        </Menu.Item>
+        
+        <Menu.Item
           name='aboutus'
           active={activeItem === 'aboutus'}
           onClick={this.handleItemClick}
@@ -43,15 +53,7 @@ export default class MenuExampleBasic extends Component {
           About Us
         </Menu.Item>
 
-        <Menu.Item
-          name='faq'
-          active={activeItem === 'faq'}
-          onClick={this.handleItemClick}
-          as={Link}
-          to='/faq'
-        >
-          FAQ
-        </Menu.Item>
+        
       </Menu>
     )
   }
