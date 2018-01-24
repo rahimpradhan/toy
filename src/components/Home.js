@@ -1,10 +1,11 @@
 import React from "react";
 import Navigation from './Navigation.js';
+import Landing from './Landing.js';
 
 const Home = props =>
   
   <div>
-    
+    <Landing />
     <h1>Home</h1>
     <p>
       Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
