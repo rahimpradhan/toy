@@ -1,10 +1,12 @@
 import React from "react";
 import Navigation from './Navigation.js';
+import Cards from './Cards.js';
+import '../App.css';
 
 const About = props =>
   
   <div>
-    
+    <Cards />
     <h1>About</h1>
     <p>
       Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis

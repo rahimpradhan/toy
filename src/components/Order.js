@@ -1,10 +1,11 @@
 import React from "react";
 import Navigation from './Navigation.js';
+import Checkout from './Checkout.js';
 
 const Faq = props =>
   
   <div>
-    
+   <Checkout />
     <h1>Faq</h1>
     <p>
       Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis

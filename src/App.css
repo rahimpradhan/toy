@@ -11,3 +11,10 @@
   margin-right: auto;
   position: relative;
 }
+
+.ui.massive.menu{
+	background-color: red;
+	border: none;
+}
+
+

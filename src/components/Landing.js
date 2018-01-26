@@ -22,7 +22,7 @@ const LoginForm = () => (
     >
       <Grid.Column style={{ maxWidth: 450 }}>
         <Header as='h2' color='red' textAlign='center'>
-          <Image src='/logo.png' />
+          <Image src='./heart.ico' />
           {' '}Log-in to your account
         </Header>
         <Form size='large'>

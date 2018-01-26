@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Menu } from 'semantic-ui-react'
 import Send from './Send.js'
 import { Link } from 'react-router-dom'
+import '../App.css';
 
 export default class MenuExampleBasic extends Component {
   state = {}
@@ -12,7 +13,7 @@ export default class MenuExampleBasic extends Component {
     const { activeItem } = this.state
 
     return (
-      <Menu size='massive'>
+      <Menu className='menu' size='massive'>
         <Menu.Item
           name='home'
           active={activeItem === 'home'}
@@ -22,6 +23,7 @@ export default class MenuExampleBasic extends Component {
         >
           Home
         </Menu.Item>
+         
 
         <Menu.Item
           name='send'
