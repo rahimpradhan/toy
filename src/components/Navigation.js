@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Menu } from 'semantic-ui-react'
-import Send from './Send.js'
+import Send from '../pages/Send.js'
 import { Link } from 'react-router-dom'
 import '../App.css';
 

@@ -1,28 +1,40 @@
-.App {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
+p,h1{
+  font-family: "Pacifico", Times, serif;
+  font-size: 24px;
 }
-
 .button{
-  text-align: center;
+  text-align: center; 
   margin-left: auto;
   margin-right: auto;
   position: relative;
+
 }
 
 #container{
   background-color: #85144b;
+  
+  
+ 
 }
 .ui.huge.menu{
-	background-color: #FF4136;
+	background-color: crimson;
+  font-family: "Pacifico", Times, serif;
 	
 }
+ .form{
+  text-align: center;
+  margin-left: 350px;
+  margin-right: 350px;
+  position: relative;
+ }
 
-.test {
-	background-color: #85144b;
-  
+
+#order {
+  width: 666px;
+  height: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+
 }
-
-

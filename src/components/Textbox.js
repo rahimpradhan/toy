@@ -1,21 +1,15 @@
 import React from 'react'
-import { Button, Form } from 'semantic-ui-react'
-
-const FormExampleForm = () => (
+import { Form, Input, TextArea, Button } from 'semantic-ui-react'
+import '../App.css';
+const FormExampleFieldControlId = () => (
   <Form>
-    <Form.Field>
-      <label>Message</label>
-      <input placeholder='Message' />
-    </Form.Field>
-    <Form.Field>
-      <label>Phone number</label>
-      <input placeholder='Phone number' />
-    </Form.Field>
-    <Form.Field>
+    <Form.Group widths='equal'>
+      <Form.Field id='form-input-control-phone-number' control={Input} label='Phone number' placeholder='Phone number' />
       
-    </Form.Field>
-    <Button type='submit'>Submit</Button>
+    </Form.Group>
+    <Form.Field id='form-textarea-control-message' control={TextArea} label='Message' placeholder='Enter your message' />
+    <Form.Field id='form-button-control-public' control={Button} content='Send message' />
   </Form>
 )
 
-export default FormExampleForm
+export default FormExampleFieldControlId

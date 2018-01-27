@@ -5,29 +5,29 @@ const CardExampleCardProps = () => (
   <Card.Group>
   <Card
     
-    header='Elliot Baker'
-    meta='Friend'
-    description='Elliot is a sound engineer living in Nashville who enjoys playing guitar and hanging with his cat.'
+    header='Rashon Hodge'
+    
+    description='Protects networks from intrusion and could possibly stop collusion.'
    />
 
     <Card
-    header='Elliot Baker'
-    meta='Friend'
-    description='Elliot is a sound engineer living in Nashville who enjoys playing guitar and hanging with his cat.'
+    header='Arash Teimourpoor'
+    
+    description='Saleforce architect by day, developer by night.'
    
   />
 
   <Card
-    header='Elliot Baker'
-    meta='Friend'
-    description='Elliot is a sound engineer living in Nashville who enjoys playing guitar and hanging with his cat.'
+    header='William Almy'
+    
+    description='Bill attends a web development bootcamp and owns a suit. Be like Bill.'
    
   />
 
   <Card
-    header='Elliot Baker'
-    meta='Friend'
-    description='Elliot is a sound engineer living in Nashville who enjoys playing guitar and hanging with his cat.'
+    header='Rahim Pradhan'
+    
+    description='Interests include coding and long walks on the beach.'
    
   />
   </Card.Group>

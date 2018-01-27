@@ -1,12 +1,13 @@
 import React from "react";
-import Navigation from './Navigation.js';
-import Checkout from './Checkout.js';
+import Navigation from '../components/Navigation.js';
+import Cards from '../components/Cards.js';
+import '../App.css';
 
-const Faq = props =>
+const About = props =>
   
   <div>
-   <Checkout />
-    <h1>Faq</h1>
+    <Cards />
+    <h1>About</h1>
     <p>
       Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
       molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
@@ -23,4 +24,4 @@ const Faq = props =>
     
   </div>;
 
-export default Faq;
+export default About;

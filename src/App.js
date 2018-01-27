@@ -3,12 +3,12 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
 import 'semantic-ui-css/semantic.min.css';
 import Navigation from './components/Navigation.js';
-import Container from './components/Container.js';
 
-import Send from './components/Send.js';
-import Home from './components/Home.js';
-import About from './components/About.js';
-import Order from './components/Order.js';
+
+import Send from './pages/Send.js';
+import Home from './pages/Home.js';
+import About from './pages/About.js';
+import Order from './pages/Order.js';
 
 const App = () =>
   <Router>

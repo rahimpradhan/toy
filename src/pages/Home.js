@@ -1,11 +1,11 @@
 import React from "react";
-import Navigation from './Navigation.js';
-import Landing from './Landing.js';
+import Navigation from '../components/Navigation.js';
+import Landing from '../components/Landing.js';
 import '../App.css';
 
 const Home = props =>
   
-  <div className='test'>
+  <div>
     
     <Landing />
     

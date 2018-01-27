@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button, Form, Grid, Header, Image, Message, Segment } from 'semantic-ui-react'
+import '../App.css';
 
 const LoginForm = () => (
   <div className='login-form'>
@@ -17,13 +18,13 @@ const LoginForm = () => (
     `}</style>
     <Grid
       textAlign='center'
-      style={{ height: '100%' }}
+      
       verticalAlign='middle'
     >
-      <Grid.Column style={{ maxWidth: 450 }}>
+      <Grid.Column>
         <Header as='h2' color='red' textAlign='center'>
           <Image src='./heart.ico' />
-          {' '}Log-in to your account
+          <p>Log-in to your account</p>
         </Header>
         <Form size='large'>
           <Segment stacked>
@@ -41,11 +42,11 @@ const LoginForm = () => (
               type='password'
             />
 
-            <Button color='red' fluid size='large'>Login</Button>
+            <Button color='red' fluid size='large'><p>Login</p></Button>
           </Segment>
         </Form>
-        <Message>
-          New to us? <a href='#'>Sign Up</a>
+        <Message id='order'>
+          New to us? <a href='/order'>Order now</a>
         </Message>
       </Grid.Column>
     </Grid>
