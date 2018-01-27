@@ -18,6 +18,7 @@ const App = () =>
       <Route exact path="/send" component={Send} />
       <Route path="/order" component={Order} />
       <Route exact path="/about" component={About} />
+    
     </div>
   </Router>;
 

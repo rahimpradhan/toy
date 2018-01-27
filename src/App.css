@@ -12,12 +12,17 @@
   position: relative;
 }
 
-.ui.massive.menu{
+#container{
+  background-color: #85144b;
+}
+.ui.huge.menu{
 	background-color: #FF4136;
 	
 }
 
 .test {
-	background: #85144b;
+	background-color: #85144b;
+  
 }
+
 
