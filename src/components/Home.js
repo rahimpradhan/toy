@@ -1,10 +1,12 @@
 import React from "react";
 import Navigation from './Navigation.js';
 import Landing from './Landing.js';
+import '../App.css';
 
 const Home = props =>
   
   <div>
+    <container className="test">
     <Landing />
     <h1>Home</h1>
     <p>
@@ -21,6 +23,7 @@ const Home = props =>
       Etiam vel condimentum magna, quis tempor nulla.
     </p>
     
+</container>
   </div>;
 
 export default Home;

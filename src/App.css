@@ -13,8 +13,11 @@
 }
 
 .ui.massive.menu{
-	background-color: red;
-	border: none;
+	background-color: #FF4136;
+	
 }
 
+.test {
+	background: #85144b;
+}
 
