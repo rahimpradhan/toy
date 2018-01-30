@@ -5,6 +5,7 @@ import 'semantic-ui-css/semantic.min.css';
 import Navigation from './components/Navigation.js';
 
 
+
 import Send from './pages/Send.js';
 import Home from './pages/Home.js';
 import About from './pages/About.js';

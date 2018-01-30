@@ -18,10 +18,10 @@ const LoginForm = () => (
     `}</style>
     <Grid
       textAlign='center'
-      
+      className="login"
       verticalAlign='middle'
     >
-      <Grid.Column>
+      <Grid.Column class='login-form'>
         <Header as='h2' color='red' textAlign='center'>
           <Image src='./heart.ico' />
           <p>Log-in to your account</p>
@@ -43,11 +43,12 @@ const LoginForm = () => (
             />
 
             <Button color='red' fluid size='large'><p>Login</p></Button>
-          </Segment>
-        </Form>
-        <Message id='order'>
+          <Message id='order'>
           New to us? <a href='/order'>Order now</a>
         </Message>
+          </Segment>
+        </Form>
+        
       </Grid.Column>
     </Grid>
   </div>
