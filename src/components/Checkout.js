@@ -12,10 +12,28 @@ const FormExampleForm = () => (
       <input placeholder='Last Name' />
     </Form.Field>
     <Form.Field>
-      <Checkbox label='I agree to the Terms and Conditions' />
+      <input placeholder='Street Address' />
     </Form.Field>
+    <Form.Field>
+      <input placeholder='City' />
+    </Form.Field>
+    <Form.Field>
+      <input placeholder='State' />
+    </Form.Field>
+    <Form.Field>
+      <input placeholder='Zip' />
+    </Form.Field>
+    <Form.Field>
+      <input placeholder='Credit Card Number' />
+    </Form.Field>
+    <Form.Field>
+      <input placeholder='Expiration' />
+    </Form.Field>
+
+
     <Button type='submit'>Submit</Button>
   </Form>
 )
+      
 
 export default FormExampleForm;
