@@ -43,9 +43,7 @@ const LoginForm = () => (
             />
 
             <Button color='red' fluid size='large'><p>Login</p></Button>
-          <Message id='order'>
-          New to us? <a href='/order'>Order now</a>
-        </Message>
+          
           </Segment>
         </Form>
         

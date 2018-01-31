@@ -6,7 +6,7 @@ import '../App.css';
 const About = props =>
   
   <div>
-    <Cards />
+    <Cards className="cards"/>
     <h1>About</h1>
     <p>
       Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis

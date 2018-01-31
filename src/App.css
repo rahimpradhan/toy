@@ -7,8 +7,8 @@ p,h1{
   margin-left: auto;
   margin-right: auto;
   position: relative;
-
 }
+
 
 
 .ui.huge.menu{
@@ -24,15 +24,7 @@ p,h1{
  }
 
 
-#order {
-  width: 666px;
-  height: 100px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  
-}
+
 .container{
   background-color: #85144b;
   height: 100%;
@@ -45,11 +37,22 @@ p,h1{
 
 .login-form{
     border: none;
+    min-width: 200px;
     
  
 }
 
-#order {
-  width: 619px;
-  height: 38px;
+
+
+.ui.stacked.segment{
+  min-width: 200px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cards{
+    margin: auto;
+    padding-left: 70px;    
+ 
 }
